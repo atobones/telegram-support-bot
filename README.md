@@ -1,2 +1,33 @@
-# telegram-support-bot
-Minimal Telegram bot template for support and lead collection using Python and SQLite.
+# Telegram Support Bot (Python)
+
+Minimal and extensible template for a business Telegram bot:
+support and lead collection with structured data storage.
+
+## Core features
+- /start onboarding
+- Message logging to SQLite
+- Save user uploads into folders by user_id
+- Basic admin statistics
+
+## Can be extended with
+- Task assignment between managers
+- SLA alerts for unanswered messages
+- Broadcast messages to all users
+- User/Request unique ID system
+- CRM or Google Sheets integration
+
+## Tech stack
+- Python
+- python-telegram-bot
+- SQLite
+
+## Use cases
+- Customer support bot
+- Lead capture bot
+- Internal request workflow
+- Small business automation
+
+## Setup (quick)
+1. Create a bot via @BotFather
+2. Add `BOT_TOKEN` to `.env` (or config)
+3. Install deps: `pip install -r requirem
