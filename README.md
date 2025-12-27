@@ -16,6 +16,12 @@ support and lead collection with structured data storage.
 - User/Request unique ID system
 - CRM or Google Sheets integration
 
+## Environment
+- Create `.env`:
+- BOT_TOKEN=your_token_here
+- ADMIN_ID=123456789
+- DB_PATH=data/app.db
+
 ## Tech stack
 - Python
 - python-telegram-bot
@@ -31,3 +37,7 @@ support and lead collection with structured data storage.
 1. Create a bot via @BotFather
 2. Add `BOT_TOKEN` to `.env` (or config)
 3. Install deps: `pip install -r requirem
+4. pip install -r requirements.txt
+5. export BOT_TOKEN="..."
+6. python bot.py
+
